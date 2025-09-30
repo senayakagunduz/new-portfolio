@@ -16,10 +16,10 @@ export default function Home() {
   const projects = [
     {
       id: 1,
-      title: "E-Ticaret Platformu",
+      title: "E-Ticaret Web Sitesi",
       description: "Modern ve ölçeklenebilir bir e-ticaret çözümü. Ödeme entegrasyonları, envanter yönetimi ve kullanıcı analitikleri içerir.",
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
-      tags: ["Next.js", "TypeScript", "Prisma", "MongoDB","Shadcn-ui","Tailwind CSS","Supabase","Mongosh","Docker"],
+      image: "e-commerce.png",
+      tags: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Shadcn-ui", "Tailwind CSS", "Supabase", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/next-prisma-project",
       demo: "https://demo.com",
       year: "2025"
@@ -28,8 +28,8 @@ export default function Home() {
       id: 2,
       title: "LLM Log Dashboard Uygulaması",
       description: "LLM den gelen logların raporlanabilmesi ve filtrelenmesi için yapılan, admin panelli dashboard uygulaması",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop",
-      tags: ["Next.js", "TypeScript", "Shadcn-ui", "Tailwind CSS", "MongoDB","Prisma","Mongosh","Docker"],
+      image: "llm-dashboard.png",
+      tags: ["Next.js", "TypeScript", "Shadcn-ui", "Tailwind CSS", "MongoDB", "Prisma", "Mongosh", "Docker"],
       github: "https://github.com/senayakagunduz/llm-dashboard",
       demo: "https://demo.com",
       year: "2025"
@@ -48,28 +48,18 @@ export default function Home() {
       id: 4,
       title: "Otel Rezervasyon Uygulaması",
       description: "Otel rezervasyon sistemi. Kullanıcıların otel rezervasyonlarını yapabilmeleri için tasarlanmış bir uygulama.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-      tags: ["Next.js", "MongoDB", "Shadcn-ui", ""],
+      image: "hotel-reservation.png",
+      tags: ["Next.js", "MongoDB", "Shadcn-ui", "Prisma", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/hotel-reservation",
       demo: "https://demo.com",
       year: "2025"
     },
-    // {
-    //   id: 5,
-    //   title: "Sosyal Medya Analytics",
-    //   description: "Çoklu platform sosyal medya analitik aracı. Instagram, Twitter ve LinkedIn metrikleri tek panelde.",
-    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-    //   tags: ["React", "D3.js", "Express", "Redis"],
-    //   github: "https://github.com",
-    //   demo: "https://demo.com",
-    //   year: "2025"
-    // },
     {
       id: 5,
       title: "User Management app",
       description: "Kullanıcı ekleme,pagination, search, update, delete fonksiyonların olduğu bir Vue.js uygulaması",
       image: "usermanagement.png",
-      tags: ["Vue.js", "Vite", "Yup","Axios", "Bootstrap","Formik","TypeScript"],
+      tags: ["Vue.js", "Vite", "Yup", "Axios", "Bootstrap", "Formik", "TypeScript"],
       github: "https://github.com/senayakagunduz/user-management-app",
       demo: "https://user-management-app.vercel.app/",
       year: "2025"
@@ -85,24 +75,74 @@ export default function Home() {
       year: "2025"
     },
     {
-      id:7,
+      id: 7,
       title: "Ricky and Morty",
       description: "Ricky and Morty karakterlerini yönetebileceğiniz bir uygulama",
       image: "ricky&morty.png",
-      tags: ["React.js","Bootstrap","Redux Toolkit","Axios","REST API"],
+      tags: ["React.js", "Bootstrap", "Redux Toolkit", "Axios", "REST API"],
       github: "https://github.com/senayakagunduz/rickyandmorty",
       demo: "https://rickyandmorty-tawny.vercel.app/",
-      year: "2023"
+      year: "2024"
     },
     {
-      id:8,
+      id: 8,
       title: "Let's Watch Movie",
       description: "",
       image: "letswatchmovie.png",
-      tags: ["Next.js","TypeScript","Tailwind CSS","React-bootstrap","Axios","REST API","Formik","Swiper","Yup","Swal2","Daisy-ui"],
+      tags: ["Next.js", "TypeScript", "Tailwind CSS", "React-bootstrap", "Axios", "REST API", "Formik", "Swiper", "Yup", "Swal2", "Daisy-ui"],
       github: "https://github.com/senayakagunduz/letswatchmovie-next",
       demo: "https://letswatchmovie.vercel.app/",
+      year: "2024"
+    },
+    {
+      id: 9,
+      title: "Shopping web site",
+      description: "",
+      image: "shopping.png",
+      tags: [],
+      github: "https://github.com/senayakagunduz/web-shopping/tree/master",
+      demo: "https://web-shopping-five.vercel.app/",
       year: "2023"
+    },
+    {
+      id: 10,
+      title: "Cookery",
+      description: "Endüstriyel mutfak ürünleri satan bir web sitesi",
+      image: "cookery.png",
+      tags: ["React.js", "TypeScript", "Tailwind CSS", "React-bootstrap", "Axios", "REST API", "Formik", "Swiper", "Yup", "Swal2", "Daisy-ui"],
+      github: "",
+      demo: "https://kitchencom.vercel.app/",
+      year: "2023"
+    },
+    {
+      id: 11,
+      title: "OneMore Web Site",
+      description: "Clone Project",
+      image: "onemore.png",
+      tags: [],
+      github: "https://github.com/senayakagunduz/OneMoreClone",
+      demo: "https://senay-akagunduz-networkmarketing.netlify.app/",
+      year: "2022"
+    },
+    {
+      id: 12,
+      title: "English Dictionary",
+      description: "",
+      image: "dictionary.png",
+      tags: ["React", "Tailwind CSS", "Axios", "REST API"],
+      github: "https://github.com/senayakagunduz/en-dictionary-tailwind",
+      demo: "https://senayakagndz-english-dict-tailwnd.netlify.app/",
+      year: "2022"
+    },
+    {
+      id: 13,
+      title: "TV Maze Film Platform",
+      description: "",
+      image: "tvmaze.png",
+      tags: ["javascript"],
+      github: "https://github.com/senayakagunduz/JS-FILM-PROJECT",
+      demo: "https://tvmaze-js.netlify.app/",
+      year: "2022"
     }
   ];
 
@@ -110,23 +150,23 @@ export default function Home() {
     {
       role: "Frontend Developer",
       company: "Semper-Tech .",
-      period: "2024 - Günümüz",
+      period: "01-05-2024 - Günümüz",
       description: "Modern web uygulamaları geliştirme, backend entegrasyonları, API entegrasyonları, deployment ve mimari kararlar alma.",
-      skills: ["React", "Next.js", "TypeScript", "Deployment", "Api Routes","Prisma","MongoDB","Linux","GitLab","Tailwind CSS","Node.js","Express.js","REST API"]
+      skills: ["React", "Next.js", "TypeScript", "Deployment", "Api Routes", "Prisma", "MongoDB", "Linux", "GitLab", "Tailwind CSS", "Node.js", "Angular", "Vue.js", "Docker", "Redux Toolkit", "Postman", "REST API"]
     },
     {
       role: "Frontend Developer",
       company: "Freelance",
       period: "2022 - 2024",
       description: "Müşteri projeleri için frontend çözümler geliştirme ve Api entegrasyonları.",
-      skills: ["Javascript", "React", "PostgreSQL", "Next.js","Prisma","MongoDB","Linux","Git", "TypeScript","Redux"]
+      skills: ["Javascript", "React", "PostgreSQL", "Next.js", "Prisma", "MongoDB", "Linux", "Git", "TypeScript", "Redux"]
     },
     {
       role: "Frontend Developer",
       company: "Unite BT",
       period: "2012 - 2014",
       description: "Web uygulaması geliştirme, bug fixing ve kod review süreçlerine katılım.",
-      skills: ["JavaScript", "html","Bootstrap","REST API","CSS"]
+      skills: ["JavaScript", "html", "Bootstrap", "REST API", "CSS"]
     }
   ];
 
@@ -200,18 +240,26 @@ export default function Home() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-6">
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-             <Image src="/hero.jpeg" alt="Hero" width={100} height={50} className="w-full h-full object-cover rounded-full" />
+            <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
+              <Image src="/hero.jpeg" alt="Hero" width={100} height={50} className="w-full h-full object-cover rounded-full" />
             </div>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-4">
-            Merhaba, Ben{' '}
-            <span className="bg-gradient-to-r from-indigo-600 to-blue-600 bg-clip-text text-transparent">
-              Şenay
-            </span>
+          <h1 className="mb-4">
+            <div>
+              <span className="bg-gradient-to-r text-2xl md:text-3xl font-bold text-slate-600 bg-clip-text "> 
+                 Merhaba, Ben{' '}
+              </span>
+            </div>
+
+            <div className='mt-2'>
+              <span className="bg-gradient-to-r text-2xl md:text-4xl font-bold from-indigo-600 to-blue-600 bg-clip-text text-transparent"> 
+                Şenay Akagündüz
+              </span>
+            </div>
+
           </h1>
-          <p className="text-xl md:text-2xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Full Stack Developer & UI/UX Enthusiast
+          <p className="text-2xl font-bold md:text-3xl text-slate-600 mb-8 max-w-2xl mx-auto">
+            Frontend Developer
           </p>
           <p className="text-lg text-slate-500 mb-10 max-w-3xl mx-auto">
             Modern web teknolojileri kullanarak kullanıcı dostu, ölçeklenebilir ve performanslı
@@ -399,19 +447,19 @@ export default function Home() {
 
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white" asChild>
-              <a href="mailto:email@example.com">
+              <a href="mailto:senayakgndz@gmail.com">
                 <Mail className="w-5 h-5 mr-2" />
-                email@example.com
+                Mail
               </a>
             </Button>
             <Button size="lg" variant="outline" className="border-slate-300" asChild>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              <a href=" https://github.com/senayakagunduz" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="w-5 h-5 mr-2" />
                 GitHub
               </a>
             </Button>
             <Button size="lg" variant="outline" className="border-slate-300" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/senayakagunduz/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </a>
