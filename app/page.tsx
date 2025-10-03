@@ -14,11 +14,12 @@ export default function Home() {
 
 
   const projects = [
+    
     {
       id: 1,
       title: "E-Ticaret Web Sitesi",
       description: "Modern ve ölçeklenebilir bir e-ticaret çözümü. Ödeme entegrasyonları, envanter yönetimi ve kullanıcı analitikleri içerir.",
-      image: "e-commerce.png",
+      image: "/e-commerce.png",
       tags: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Shadcn-ui", "Tailwind CSS", "Supabase", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/next-prisma-project",
       demo: "https://demo.com",
@@ -28,27 +29,27 @@ export default function Home() {
       id: 2,
       title: "LLM Log Dashboard Uygulaması",
       description: "LLM den gelen logların raporlanabilmesi ve filtrelenmesi için yapılan, admin panelli dashboard uygulaması",
-      image: "llm-dashboard.png",
+      image: "/llm-dashboard.png",
       tags: ["Next.js", "TypeScript", "Shadcn-ui", "Tailwind CSS", "MongoDB", "Prisma", "Mongosh", "Docker"],
       github: "https://github.com/senayakagunduz/llm-dashboard",
       demo: "https://demo.com",
       year: "2025"
     },
-    {
-      id: 3,
-      title: "AI Chatbot Dashboard",
-      description: "OpenAI API kullanarak geliştirilmiş akıllı sohbet botu yönetim paneli. Analytics ve kullanıcı etkileşim raporları.",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
-      tags: ["Next.js", "OpenAI", "Tailwind", "Prisma"],
-      github: "https://github.com",
-      demo: "https://demo.com",
-      year: "2025"
-    },
+    // {
+    //   id: 3,
+    //   title: "AI Chatbot Dashboard",
+    //   description: "OpenAI API kullanarak geliştirilmiş akıllı sohbet botu yönetim paneli. Analytics ve kullanıcı etkileşim raporları.",
+    //   image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
+    //   tags: ["Next.js", "OpenAI", "Tailwind", "Prisma"],
+    //   github: "https://github.com",
+    //   demo: "https://demo.com",
+    //   year: "2025"
+    // },
     {
       id: 4,
       title: "Otel Rezervasyon Uygulaması",
       description: "Otel rezervasyon sistemi. Kullanıcıların otel rezervasyonlarını yapabilmeleri için tasarlanmış bir uygulama.",
-      image: "hotel-reservation.png",
+      image: "/hotel-reservation.png",
       tags: ["Next.js", "MongoDB", "Shadcn-ui", "Prisma", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/hotel-reservation",
       demo: "https://demo.com",
@@ -58,99 +59,119 @@ export default function Home() {
       id: 5,
       title: "User Management app",
       description: "Kullanıcı ekleme,pagination, search, update, delete fonksiyonların olduğu bir Vue.js uygulaması",
-      image: "usermanagement.png",
+      image: "/usermanagement.png",
       tags: ["Vue.js", "Vite", "Yup", "Axios", "Bootstrap", "Formik", "TypeScript"],
       github: "https://github.com/senayakagunduz/user-management-app",
       demo: "https://user-management-app.vercel.app/",
       year: "2025"
     },
-    {
-      id: 6,
-      title: "AI Assistant",
-      description: "OpenAI API kullanarak geliştirilmiş akıllı sohbet botu yönetim paneli. Analytics ve kullanıcı etkileşim raporları.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-      tags: ["Python", "Airtable", "Express", "Redis"],
-      github: "https://github.com/senayakagunduz/AIAssistant",
-      demo: "https://demo.com",
-      year: "2025"
-    },
+    // {
+    //   id: 6,
+    //   title: "AI Assistant",
+    //   description: "OpenAI API kullanarak geliştirilmiş akıllı sohbet botu yönetim paneli. Analytics ve kullanıcı etkileşim raporları.",
+    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
+    //   tags: ["Python", "Airtable", "Express", "Redis"],
+    //   github: "https://github.com/senayakagunduz/AIAssistant",
+    //   demo: "https://demo.com",
+    //   year: "2025"
+    // },
     {
       id: 7,
+      title: "Vantageride",
+      description: "Araç Kiralama Platformu",
+      image: "/vantageride.png",
+      tags: ["React.js", "Rest API", "Axios", "Formik", "Yup", "Swal2", "React-Boootstrap"],
+      github: "",
+      demo: "https://www.vantageride.com/",
+      year: "2024"
+    },
+    {
+      id: 8,
       title: "Ricky and Morty",
       description: "Ricky and Morty karakterlerini yönetebileceğiniz bir uygulama",
-      image: "ricky&morty.png",
+      image: "/ricky&morty.png",
       tags: ["React.js", "Bootstrap", "Redux Toolkit", "Axios", "REST API"],
       github: "https://github.com/senayakagunduz/rickyandmorty",
       demo: "https://rickyandmorty-tawny.vercel.app/",
       year: "2024"
     },
     {
-      id: 8,
+      id: 9,
       title: "Let's Watch Movie",
       description: "",
-      image: "letswatchmovie.png",
+      image: "/letswatchmovie.png",
       tags: ["Next.js", "TypeScript", "Tailwind CSS", "React-bootstrap", "Axios", "REST API", "Formik", "Swiper", "Yup", "Swal2", "Daisy-ui"],
       github: "https://github.com/senayakagunduz/letswatchmovie-next",
       demo: "https://letswatchmovie.vercel.app/",
       year: "2024"
     },
     {
-      id: 9,
+      id: 10,
       title: "Shopping web site",
       description: "",
-      image: "shopping.png",
+      image: "/shopping.png",
       tags: [],
       github: "https://github.com/senayakagunduz/web-shopping/tree/master",
       demo: "https://web-shopping-five.vercel.app/",
       year: "2023"
     },
     {
-      id: 10,
+      id: 11,
       title: "Cookery",
       description: "Endüstriyel mutfak ürünleri satan bir web sitesi",
-      image: "cookery.png",
+      image: "/cookery.png",
       tags: ["React.js", "TypeScript", "Tailwind CSS", "React-bootstrap", "Axios", "REST API", "Formik", "Swiper", "Yup", "Swal2", "Daisy-ui"],
       github: "",
       demo: "https://kitchencom.vercel.app/",
       year: "2023"
     },
     {
-      id: 11,
+      id: 12,
       title: "OneMore Web Site",
       description: "Clone Project",
-      image: "onemore.png",
+      image: "/onemore.png",
       tags: [],
       github: "https://github.com/senayakagunduz/OneMoreClone",
       demo: "https://senay-akagunduz-networkmarketing.netlify.app/",
       year: "2022"
     },
     {
-      id: 12,
+      id: 13,
       title: "English Dictionary",
       description: "",
-      image: "dictionary.png",
+      image: "/dictionary.png",
       tags: ["React", "Tailwind CSS", "Axios", "REST API"],
       github: "https://github.com/senayakagunduz/en-dictionary-tailwind",
       demo: "https://senayakagndz-english-dict-tailwnd.netlify.app/",
       year: "2022"
     },
     {
-      id: 13,
-      title: "TV Maze Film Platform",
+      id: 14,
+      title: "Forecast",
       description: "",
-      image: "tvmaze.png",
+      image: "/forecast.png",
       tags: ["javascript"],
-      github: "https://github.com/senayakagunduz/JS-FILM-PROJECT",
-      demo: "https://tvmaze-js.netlify.app/",
+      github: "https://github.com/senayakagunduz/forecast-app",
+      demo: "https://forecast-app-q5m5.vercel.app/",
       year: "2022"
-    }
+    },
+    // {
+    //   id: 14,
+    //   title: "TV Maze Film Platform",
+    //   description: "",
+    //   image: "/tvmaze.png",
+    //   tags: ["javascript"],
+    //   github: "https://github.com/senayakagunduz/JS-FILM-PROJECT",
+    //   demo: "https://tvmaze-js.netlify.app/",
+    //   year: "2022"
+    // }
   ];
 
   const experiences = [
     {
       role: "Frontend Developer",
       company: "Semper-Tech .",
-      period: "01-05-2024 - Günümüz",
+      period: "01.05.2024 - Günümüz",
       description: "Modern web uygulamaları geliştirme, backend entegrasyonları, API entegrasyonları, deployment ve mimari kararlar alma.",
       skills: ["React", "Next.js", "TypeScript", "Deployment", "Api Routes", "Prisma", "MongoDB", "Linux", "GitLab", "Tailwind CSS", "Node.js", "Angular", "Vue.js", "Docker", "Redux Toolkit", "Postman", "REST API"]
     },
@@ -178,7 +199,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md border-b border-slate-200 z-50 shadow-sm">
+      <nav className="fixed top-0 w-full bg-indigo-100 backdrop-blur-md border-b border-slate-200 z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
@@ -237,11 +258,11 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-indigo-50">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-6">
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-              <Image src="/hero.jpeg" alt="Hero" width={100} height={50} className="w-full h-full object-cover rounded-full" />
+              <Image src="/profil.jpeg" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
             </div>
           </div>
           <h1 className="mb-4">
@@ -282,7 +303,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projeler" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/50">
+      <section id="projeler" className="py-20 px-4 sm:px-6 lg:px-8 bg-indigo-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Projelerim</h2>
@@ -294,11 +315,12 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project) => (
               <Card key={project.id} className="overflow-hidden hover:shadow-2xl transition-all duration-300 border-0 bg-white group">
-                <div className="relative overflow-hidden">
-                  <img
+                <div className="relative overflow-hidden w-full h-72">
+                  <Image
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                    fill
+                    className=" object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute top-4 right-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {project.year}
@@ -340,7 +362,7 @@ export default function Home() {
       </section>
 
       {/* Experience Section */}
-      <section id="deneyim" className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="deneyim" className="py-20 px-4 sm:px-6 lg:px-8 bg-indigo-50">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Deneyimlerim</h2>
@@ -378,7 +400,7 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section id="yetenekler" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/50">
+      <section id="yetenekler" className="py-20 px-4 sm:px-6 lg:px-8 bg-indigo-100">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Teknik Yetenekler</h2>
@@ -438,7 +460,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="iletisim" className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="iletisim" className="py-20 px-4 sm:px-6 lg:px-8 bg-indigo-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">İletişime Geçin</h2>
           <p className="text-lg text-slate-600 mb-12">
@@ -481,7 +503,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-slate-900 text-white py-12 px-4">
+      <footer className="bg-slate-800 text-white py-12 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex justify-center space-x-6 mb-6">
             <a href="https://github.com" className="hover:text-indigo-400 transition-colors">
