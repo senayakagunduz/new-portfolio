@@ -14,7 +14,15 @@ export default function Home() {
 
 
   const projects = [
-    
+     {
+      id: 0,
+      title: "Cybernate Security",
+      description: "Siber güvenlik için yaptığım bir uygulama ve onun tanıtıldığı web sitesi`2 proje içerir`",
+      image: "/cybernate.jpg",
+      tags: ["Next.js", "TypeScript",  "Shadcn-ui", "Tailwind CSS", "Docker"],
+      demo: "http://cybernate.com.tr/",
+      year: "2025"
+    },
     {
       id: 1,
       title: "E-Ticaret Web Sitesi",
