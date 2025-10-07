@@ -269,8 +269,8 @@ export default function Home() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-indigo-50">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-6">
-            <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-              <Image src="/profil.jpeg" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
+            <div className="p-2 w-64 h-64 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
+              <Image src="/profil2.jpeg" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
             </div>
           </div>
           <h1 className="mb-4">
