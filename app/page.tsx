@@ -316,24 +316,26 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">Projelerim</h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-              Son zamanlarda üzerinde çalıştığım ve tamamladığım projeler
+              Üzerinde çalıştığım ve tamamladığım projelerim
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project) => (
               <Card key={project.id} className="overflow-hidden hover:shadow-2xl transition-all duration-300 border-0 bg-white group">
-                <div className="relative overflow-hidden w-full h-72">
+                {/* <div className="relative overflow-hidden w-full h-72"> */}
+                  <div className="relative overflow-hidden w-full aspect-[4/3] md:aspect-[16/9]">
                   <Image
                     src={project.image}
                     alt={project.title}
                     fill
-                    className=" object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="object-contain group-hover:scale-110 transition-transform duration-500"
                   />
+                  </div>
                   <div className="absolute top-4 right-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
                     {project.year}
                   </div>
-                </div>
+                {/* </div> */}
                 <CardHeader>
                   <CardTitle className="text-2xl text-slate-900">{project.title}</CardTitle>
                   <CardDescription className="text-base text-slate-600 leading-relaxed">
