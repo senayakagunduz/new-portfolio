@@ -179,7 +179,7 @@ export default function Home() {
     {
       role: "Frontend Developer",
       company: "Semper-Tech .",
-      period: "01.05.2024 - Günümüz",
+      period: "01.05.2024 - 03.10.2025",
       description: "Modern web uygulamaları geliştirme, backend entegrasyonları, API entegrasyonları, deployment ve mimari kararlar alma.",
       skills: ["React", "Next.js", "TypeScript", "Deployment", "Api Routes", "Prisma", "MongoDB", "Linux", "GitLab", "Tailwind CSS", "Node.js", "Angular", "Vue.js", "Docker", "Redux Toolkit", "Postman", "REST API"]
     },
