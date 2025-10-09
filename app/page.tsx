@@ -28,7 +28,7 @@ export default function Home() {
       title: "E-Ticaret Web Sitesi",
       description: "Modern ve ölçeklenebilir bir e-ticaret çözümü. Ödeme entegrasyonları, envanter yönetimi ve kullanıcı analitikleri içerir.",
       image: "/e-commerce.png",
-      tags: ["Next.js", "TypeScript", "Prisma", "MongoDB", "Shadcn-ui", "Tailwind CSS", "Supabase", "Mongosh", "Docker", "Api Route"],
+      tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Shadcn-ui", "Tailwind CSS", "Supabase", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/next-prisma-project",
       demo: "https://demo.com",
       year: "2025"
@@ -200,6 +200,12 @@ export default function Home() {
   ];
 
   const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+     if (section) {
+      const yOffset = -80; 
+      const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
     setActiveSection(sectionId);
     setMobileMenuOpen(false);
   };
@@ -270,7 +276,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-6">
             <div className="p-2 w-64 h-64 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-              <Image src="/profil2.jpeg" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
+              <Image src="/profil3.jpeg" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
             </div>
           </div>
           <h1 className="mb-4">
