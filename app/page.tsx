@@ -276,7 +276,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-6">
             <div className="p-2 w-64 h-64 mx-auto rounded-full bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-              <Image src="/profil3.jpeg" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
+              <Image src="/profil3.png" alt="Hero" width={200} height={200} className="w-full h-full object-cover rounded-full" />
             </div>
           </div>
           <h1 className="mb-4">
