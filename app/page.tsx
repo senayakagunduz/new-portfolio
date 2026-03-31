@@ -30,7 +30,7 @@ export default function Home() {
       image: "/e-commerce.png",
       tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Shadcn-ui", "Tailwind CSS", "Supabase", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/next-prisma-project",
-      demo: "https://demo.com",
+      demo: "https://next-prisma-iota.vercel.app/",
       year: "2025"
     },
     {
