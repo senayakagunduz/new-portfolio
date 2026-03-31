@@ -60,7 +60,7 @@ export default function Home() {
       image: "/hotel-reservation.png",
       tags: ["Next.js", "MongoDB", "Shadcn-ui", "Prisma", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/hotel-reservation",
-      demo: "https://demo.com",
+      demo: "-",
       year: "2025"
     },
     {
@@ -358,18 +358,22 @@ export default function Home() {
                   </div>
                 </CardContent>
                 <CardFooter className="flex space-x-3">
-                  <Button variant="outline" className="flex-1 border-slate-300 hover:bg-slate-50" asChild>
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <FaGithub className="w-4 h-4 mr-2" />
-                      Kod
-                    </a>
-                  </Button>
-                  <Button className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white" asChild>
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Demo
-                    </a>
-                  </Button>
+                  {project.github && (
+                    <Button variant="outline" className="flex-1 border-slate-300 hover:bg-slate-50" asChild>
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="w-4 h-4 mr-2" />
+                        Kod
+                      </a>
+                    </Button>
+                  )}
+                  {project.demo && project.demo !== "-" && (
+                    <Button className="flex-1 bg-indigo-600 hover:bg-indigo-700 text-white" asChild>
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Demo
+                      </a>
+                    </Button>
+                  )}
                 </CardFooter>
               </Card>
             ))}
