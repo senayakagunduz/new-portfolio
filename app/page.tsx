@@ -40,7 +40,7 @@ export default function Home() {
       image: "/llm-dashboard.png",
       tags: ["Next.js", "TypeScript", "Shadcn-ui", "Tailwind CSS", "MongoDB", "Prisma", "Mongosh", "Docker"],
       github: "https://github.com/senayakagunduz/llm-dashboard",
-      demo: "https://demo.com",
+      demo: "https://llm-dashboard-eight.vercel.app/",
       year: "2025"
     },
     // {
