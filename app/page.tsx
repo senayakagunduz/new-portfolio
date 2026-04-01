@@ -14,8 +14,17 @@ export default function Home() {
 
 
   const projects = [
+      {
+        id: 0,
+        title: "CVE Risk Analyzer",
+        description: "AI destekli bu fullstack uygulama, CVE açıklamalarını analiz ederek zafiyetlerin risk seviyesini (Low, Medium, High) tahmin eder. Projede NLP (TF-IDF) ve Random Forest modeli kullanılarak metin tabanlı güvenlik analizleri gerçekleştirilmiştir. FastAPI ile geliştirilen backend ve Tailwind CSS ile tasarlanan modern arayüz sayesinde gerçek zamanlı risk analizi sunar.",
+        image: "/cve-risk-analyzer.png",
+        tags: ["Python", "Scikit-learn", "FastAPI", "NLP", "Tailwind CSS", "Machine Learning"],
+        demo: "-",
+        year: "2026"
+    },
      {
-      id: 0,
+      id: 1,
       title: "Cybernate Security",
       description: "Siber güvenlik için yaptığım bir uygulama ve onun tanıtıldığı web sitesi`2 proje içerir`",
       image: "/cybernate.jpg",
@@ -24,7 +33,7 @@ export default function Home() {
       year: "2025"
     },
     {
-      id: 1,
+      id: 2,
       title: "E-Ticaret Web Sitesi",
       description: "Modern ve ölçeklenebilir bir e-ticaret çözümü. Ödeme entegrasyonları, envanter yönetimi ve kullanıcı analitikleri içerir.",
       image: "/e-commerce.png",
@@ -34,7 +43,7 @@ export default function Home() {
       year: "2025"
     },
     {
-      id: 2,
+      id: 3,
       title: "LLM Log Dashboard Uygulaması",
       description: "LLM den gelen logların raporlanabilmesi ve filtrelenmesi için yapılan, admin panelli dashboard uygulaması",
       image: "/llm-dashboard.png",
