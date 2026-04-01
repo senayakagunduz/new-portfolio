@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ProjectSlider } from '@/components/project-slider';
 export default function Home() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,36 +19,45 @@ export default function Home() {
       id: 0,
       title: "CVE Risk Analyzer",
       description: "Siber güvenlik operasyonlarını (SecOps) hızlandırmak amacıyla geliştirilmiş, AI destekli bir risk sınıflandırma aracıdır. Ham CVE verilerini NLP (TF-IDF) teknikleriyle işleyerek zafiyetlerin etki düzeyini %85+ doğruluk oranıyla (Random Forest) tahmin eder. Proje; veri ön işleme, model eğitimi ve modelin FastAPI üzerinden production ortamına sunulması (Deployment) süreçlerini kapsayan uçtan uca (End-to-End) bir pipeline sunar. Modern Tailwind CSS arayüzü ile güvenlik analistlerinin karar destek süreçlerini otomatize eder.",
-      image: "/cve-risk-analyzer.png",
+      images: ["/cve-risk-analyzer.png"],
       tags: ["Python", "Scikit-learn", "FastAPI", "NLP", "Machine Learning", "SecOps"],
       github: "https://github.com/senayakagunduz/CVE-Risk-Analyzer",
       demo: "-",
       year: "2026"
     },
+    {
+        id: 1,
+        title: "AI Podcast Generator",
+        description: "AI Podcast Generator, kullanıcıların herhangi bir konuyu podcast formatına dönüştüren yapay zeka destekli bir uygulamadır. Ollama (Llama 3.2) ile script oluşturur ve gTTS ile metni doğal sese dönüştürür. FastAPI backend ve React frontend ile modern bir kullanıcı deneyimi sunar.",
+        images: ["/ai-generator1.png", "/ai-generator2.png", "/ai-generator3.png"],
+        tags: ["Python", "FastAPI", "React", "Ollama", "gTTS", "Vite"],
+        github: "https://github.com/senayakagunduz/ai-podcast-generator"
+      },
+
      {
-      id: 1,
+      id: 2,
       title: "Cybernate Security",
       description: "Siber güvenlik için yaptığım bir uygulama ve onun tanıtıldığı web sitesi`2 proje içerir`",
-      image: "/cybernate.jpg",
+      images: ["/cybernate.jpg"],
       tags: ["Next.js", "TypeScript",  "Shadcn-ui", "Tailwind CSS", "Docker"],
       demo: "http://cybernate.com.tr/",
       year: "2025"
     },
     {
-      id: 2,
+      id: 3,
       title: "E-Ticaret Web Sitesi",
       description: "Modern ve ölçeklenebilir bir e-ticaret çözümü. Ödeme entegrasyonları, envanter yönetimi ve kullanıcı analitikleri içerir.",
-      image: "/e-commerce.png",
+      images: ["/e-commerce.png"],
       tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Shadcn-ui", "Tailwind CSS", "Supabase", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/next-prisma-project",
       demo: "https://next-prisma-iota.vercel.app/",
       year: "2025"
     },
     {
-      id: 3,
+      id: 4,
       title: "LLM Log Dashboard Uygulaması",
       description: "LLM den gelen logların raporlanabilmesi ve filtrelenmesi için yapılan, admin panelli dashboard uygulaması",
-      image: "/llm-dashboard.png",
+      images: ["/llm-dashboard.png"],
       tags: ["Next.js", "TypeScript", "Shadcn-ui", "Tailwind CSS", "MongoDB", "Prisma", "Mongosh", "Docker"],
       github: "https://github.com/senayakagunduz/llm-dashboard",
       demo: "https://llm-dashboard-eight.vercel.app/",
@@ -64,20 +74,20 @@ export default function Home() {
     //   year: "2025"
     // },
     {
-      id: 4,
+      id: 5,
       title: "Otel Rezervasyon Uygulaması",
       description: "Otel rezervasyon sistemi. Kullanıcıların otel rezervasyonlarını yapabilmeleri için tasarlanmış bir uygulama.",
-      image: "/hotel-reservation.png",
+      images: ["/hotel-reservation.png"],
       tags: ["Next.js", "MongoDB", "Shadcn-ui", "Prisma", "Mongosh", "Docker", "Api Route"],
       github: "https://github.com/senayakagunduz/hotel-reservation",
       demo: "-",
       year: "2025"
     },
     {
-      id: 5,
+      id: 6,
       title: "User Management app",
       description: "Kullanıcı ekleme,pagination, search, update, delete fonksiyonların olduğu bir Vue.js uygulaması",
-      image: "/usermanagement.png",
+      images: ["/usermanagement.png"],
       tags: ["Vue.js", "Vite", "Yup", "Axios", "Bootstrap", "Formik", "TypeScript"],
       github: "https://github.com/senayakagunduz/user-management-app",
       demo: "https://user-management-app.vercel.app/",
@@ -97,7 +107,7 @@ export default function Home() {
       id: 7,
       title: "Vantageride",
       description: "Araç Kiralama Platformu",
-      image: "/vantageride.png",
+      images: ["/vantageride.png"],
       tags: ["React.js", "Rest API", "Axios", "Formik", "Yup", "Swal2", "React-Boootstrap"],
       github: "",
       demo: "https://www.vantageride.com/",
@@ -107,7 +117,7 @@ export default function Home() {
       id: 8,
       title: "Ricky and Morty",
       description: "Ricky and Morty karakterlerini yönetebileceğiniz bir uygulama",
-      image: "/ricky&morty.png",
+      images: ["/ricky&morty.png"],
       tags: ["React.js", "Bootstrap", "Redux Toolkit", "Axios", "REST API"],
       github: "https://github.com/senayakagunduz/rickyandmorty",
       demo: "https://rickyandmorty-tawny.vercel.app/",
@@ -117,7 +127,7 @@ export default function Home() {
       id: 9,
       title: "Let's Watch Movie",
       description: "",
-      image: "/letswatchmovie.png",
+      images: ["/letswatchmovie.png"],
       tags: ["Next.js", "TypeScript", "Tailwind CSS", "React-bootstrap", "Axios", "REST API", "Formik", "Swiper", "Yup", "Swal2", "Daisy-ui"],
       github: "https://github.com/senayakagunduz/letswatchmovie-next",
       demo: "https://letswatchmovie.vercel.app/",
@@ -127,7 +137,7 @@ export default function Home() {
       id: 10,
       title: "Shopping web site",
       description: "",
-      image: "/shopping.png",
+      images: ["/shopping.png"],
       tags: [],
       github: "https://github.com/senayakagunduz/web-shopping/tree/master",
       demo: "https://web-shopping-five.vercel.app/",
@@ -137,7 +147,7 @@ export default function Home() {
       id: 11,
       title: "Cookery",
       description: "Endüstriyel mutfak ürünleri satan bir web sitesi",
-      image: "/cookery.png",
+      images: ["/cookery.png"],
       tags: ["React.js", "TypeScript", "Tailwind CSS", "React-bootstrap", "Axios", "REST API", "Formik", "Swiper", "Yup", "Swal2", "Daisy-ui"],
       github: "",
       demo: "https://kitchencom.vercel.app/",
@@ -147,7 +157,7 @@ export default function Home() {
       id: 12,
       title: "OneMore Web Site",
       description: "Clone Project",
-      image: "/onemore.png",
+      images: ["/onemore.png"],
       tags: [],
       github: "https://github.com/senayakagunduz/OneMoreClone",
       demo: "https://senay-akagunduz-networkmarketing.netlify.app/",
@@ -157,7 +167,7 @@ export default function Home() {
       id: 13,
       title: "English Dictionary",
       description: "",
-      image: "/dictionary.png",
+      images: ["/dictionary.png"],
       tags: ["React", "Tailwind CSS", "Axios", "REST API"],
       github: "https://github.com/senayakagunduz/en-dictionary-tailwind",
       demo: "https://senayakagndz-english-dict-tailwnd.netlify.app/",
@@ -167,7 +177,7 @@ export default function Home() {
       id: 14,
       title: "Forecast",
       description: "",
-      image: "/forecast.png",
+      images: ["/forecast.png"],
       tags: ["javascript"],
       github: "https://github.com/senayakagunduz/forecast-app",
       demo: "https://forecast-app-q5m5.vercel.app/",
@@ -339,19 +349,9 @@ Geliştirme süreçlerinde Pandas, Scikit-learn ve benzeri kütüphaneleri kulla
           <div className="grid md:grid-cols-2 gap-8">
             {projects.map((project) => (
               <Card key={project.id} className="overflow-hidden hover:shadow-2xl transition-all duration-300 border-0 bg-white group">
-                {/* <div className="relative overflow-hidden w-full h-72"> */}
-                  <div className="relative overflow-hidden w-full aspect-[4/3] md:aspect-[16/9]">
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    fill
-                    className="object-contain group-hover:scale-110 transition-transform duration-500"
-                  />
-                  </div>
-                  <div className="absolute top-4 right-4 bg-indigo-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
-                    {project.year}
-                  </div>
-                {/* </div> */}
+                <div className="relative">
+                  <ProjectSlider images={project.images} title={project.title} />
+                </div>
                 <CardHeader>
                   <CardTitle className="text-2xl text-slate-900">{project.title}</CardTitle>
                   <CardDescription className="text-base text-slate-600 leading-relaxed">
@@ -461,7 +461,7 @@ Geliştirme süreçlerinde Pandas, Scikit-learn ve benzeri kütüphaneleri kulla
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 justify-center">
-                  {["Node.js", "Express", "PostgreSQL", "MongoDB", "GraphQL"].map((skill) => (
+                  {["Python", "FastAPI", "Scikit-learn", "NLP", "Machine Learning", "Ollama", "gTTS", "Prisma", "PostgreSQL", "MongoDB", "Supabase", "Docker", "REST API", "Api Routes"].map((skill) => (
                     <Badge key={skill} variant="secondary" className="bg-green-50 text-green-700">
                       {skill}
                     </Badge>
