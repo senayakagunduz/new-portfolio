@@ -15,13 +15,14 @@ export default function Home() {
 
   const projects = [
       {
-        id: 0,
-        title: "CVE Risk Analyzer",
-        description: "AI destekli bu fullstack uygulama, CVE açıklamalarını analiz ederek zafiyetlerin risk seviyesini (Low, Medium, High) tahmin eder. Projede NLP (TF-IDF) ve Random Forest modeli kullanılarak metin tabanlı güvenlik analizleri gerçekleştirilmiştir. FastAPI ile geliştirilen backend ve Tailwind CSS ile tasarlanan modern arayüz sayesinde gerçek zamanlı risk analizi sunar.",
-        image: "/cve-risk-analyzer.png",
-        tags: ["Python", "Scikit-learn", "FastAPI", "NLP", "Tailwind CSS", "Machine Learning"],
-        demo: "-",
-        year: "2026"
+      id: 0,
+      title: "CVE Risk Analyzer",
+      description: "Siber güvenlik operasyonlarını (SecOps) hızlandırmak amacıyla geliştirilmiş, AI destekli bir risk sınıflandırma aracıdır. Ham CVE verilerini NLP (TF-IDF) teknikleriyle işleyerek zafiyetlerin etki düzeyini %85+ doğruluk oranıyla (Random Forest) tahmin eder. Proje; veri ön işleme, model eğitimi ve modelin FastAPI üzerinden production ortamına sunulması (Deployment) süreçlerini kapsayan uçtan uca (End-to-End) bir pipeline sunar. Modern Tailwind CSS arayüzü ile güvenlik analistlerinin karar destek süreçlerini otomatize eder.",
+      image: "/cve-risk-analyzer.png",
+      tags: ["Python", "Scikit-learn", "FastAPI", "NLP", "Machine Learning", "SecOps"],
+      github: "https://github.com/senayakagunduz/CVE-Risk-Analyzer",
+      demo: "-",
+      year: "2026"
     },
      {
       id: 1,
