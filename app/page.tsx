@@ -304,11 +304,11 @@ export default function Home() {
 
           </h1>
           <p className="text-2xl font-bold md:text-3xl text-slate-600 mb-8 max-w-2xl mx-auto">
-            Frontend Developer
+            Software & AI Developer
           </p>
           <p className="text-lg text-slate-500 mb-10 max-w-3xl mx-auto">
-            Modern web teknolojileri kullanarak kullanıcı dostu, ölçeklenebilir ve performanslı
-            uygulamalar geliştiriyorum. İnovasyon ve kod kalitesi tutkusuyla çalışıyorum.
+            Software development altyapımı Python ve yapay zeka araçlarıyla genişleterek veri odaklı uygulamalar geliştiriyorum. Model denemeleri, veri ön işleme ve küçük ölçekli AI entegrasyonları üzerine çalışıyor; özellikle metin (NLP) ve ses verilerini bir araya getiren projelere odaklanıyorum.
+Geliştirme süreçlerinde Pandas, Scikit-learn ve benzeri kütüphaneleri kullanarak veriyle çalışıyor; SSH üzerinden uzak ortamlarda ve GPU destekli sistemlerde çalışma deneyimi kazanıyorum. Hedefim, yazılım mühendisliği bakış açımı AI sistemleriyle birleştirerek gerçek dünya problemlerine çözüm üretmek.
           </p>
           <div className="flex justify-center space-x-4">
             <Button className="bg-indigo-600 hover:bg-indigo-700 text-white">
