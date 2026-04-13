@@ -65,11 +65,12 @@ export default function Home() {
       year: "2025"
     },
     {
+      
       id: 5,
       title: "AI Rag Chatbot Uygulaması",
-      description: "AI destekli RAG (Retrieval-Augmented Generation) chatbot uygulaması. Kullanıcıların sorularını yanıtlamak için büyük dil modellerini ve bilgi tabanlarını birleştirir. Admin paneli üzerinden logların raporlanması ve filtrelenmesi özellikleri içerir.",
+      description: "PDF belgelerinden bilgi çeken, RAG tabanlı AI chatbot uygulaması. Kullanıcılar PDF yükleyip içeriği hakkında sorular sorabilir. FAISS vektör veritabanı ile benzer dokümanları bulur, GPT-4 ile yanıt üretir.",
       images: ["/ai-rag1.png","/ai-rag2.png"],
-      tags: ["React.js", "TypeScript", "Tailwind CSS", "FastAPI", "Ollama", "Python", "Uvicorn","FastApi","FAISS Verittabanı"],
+      tags: ["React.js", "JavaScript", "Tailwind CSS", "FastAPI", "FAISS", "Python", "OpenAI", "Uvicorn"],
       github: "https://github.com/senayakagunduz/ai-rag-chatbot",
       demo: "-",
       year: "2026"
