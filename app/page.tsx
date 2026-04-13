@@ -31,7 +31,8 @@ export default function Home() {
         description: "AI Podcast Generator, kullanıcıların herhangi bir konuyu podcast formatına dönüştüren yapay zeka destekli bir uygulamadır. Ollama (Llama 3.2) ile script oluşturur ve gTTS ile metni doğal sese dönüştürür. FastAPI backend ve React frontend ile modern bir kullanıcı deneyimi sunar.",
         images: ["/ai-generator1.png", "/ai-generator2.png", "/ai-generator3.png"],
         tags: ["Python", "FastAPI", "React", "Ollama", "gTTS", "Vite"],
-        github: "https://github.com/senayakagunduz/ai-podcast-generator"
+        github: "https://github.com/senayakagunduz/ai-podcast-generator",
+        year: "2026"
       },
 
      {
@@ -63,18 +64,18 @@ export default function Home() {
       demo: "https://llm-dashboard-eight.vercel.app/",
       year: "2025"
     },
-    // {
-    //   id: 3,
-    //   title: "AI Chatbot Dashboard",
-    //   description: "OpenAI API kullanarak geliştirilmiş akıllı sohbet botu yönetim paneli. Analytics ve kullanıcı etkileşim raporları.",
-    //   image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop",
-    //   tags: ["Next.js", "OpenAI", "Tailwind", "Prisma"],
-    //   github: "https://github.com",
-    //   demo: "https://demo.com",
-    //   year: "2025"
-    // },
     {
       id: 5,
+      title: "AI Rag Chatbot Uygulaması",
+      description: "AI destekli RAG (Retrieval-Augmented Generation) chatbot uygulaması. Kullanıcıların sorularını yanıtlamak için büyük dil modellerini ve bilgi tabanlarını birleştirir. Admin paneli üzerinden logların raporlanması ve filtrelenmesi özellikleri içerir.",
+      images: ["/ai-rag1.png","/ai-rag2.png"],
+      tags: ["React.js", "TypeScript", "Tailwind CSS", "FastAPI", "Ollama", "Python", "Uvicorn","FastApi","FAISS Verittabanı"],
+      github: "https://github.com/senayakagunduz/ai-rag-chatbot",
+      demo: "-",
+      year: "2026"
+    },
+    {
+      id: 6,
       title: "Otel Rezervasyon Uygulaması",
       description: "Otel rezervasyon sistemi. Kullanıcıların otel rezervasyonlarını yapabilmeleri için tasarlanmış bir uygulama.",
       images: ["/hotel-reservation.png"],
@@ -84,7 +85,7 @@ export default function Home() {
       year: "2025"
     },
     {
-      id: 6,
+      id: 7,
       title: "User Management app",
       description: "Kullanıcı ekleme,pagination, search, update, delete fonksiyonların olduğu bir Vue.js uygulaması",
       images: ["/usermanagement.png"],
@@ -93,18 +94,9 @@ export default function Home() {
       demo: "https://user-management-app.vercel.app/",
       year: "2025"
     },
-    // {
-    //   id: 6,
-    //   title: "AI Assistant",
-    //   description: "OpenAI API kullanarak geliştirilmiş akıllı sohbet botu yönetim paneli. Analytics ve kullanıcı etkileşim raporları.",
-    //   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
-    //   tags: ["Python", "Airtable", "Express", "Redis"],
-    //   github: "https://github.com/senayakagunduz/AIAssistant",
-    //   demo: "https://demo.com",
-    //   year: "2025"
-    // },
+    
     {
-      id: 7,
+      id: 8,
       title: "Vantageride",
       description: "Araç Kiralama Platformu",
       images: ["/vantageride.png"],
@@ -114,7 +106,7 @@ export default function Home() {
       year: "2024"
     },
     {
-      id: 8,
+      id: 9,
       title: "Ricky and Morty",
       description: "Ricky and Morty karakterlerini yönetebileceğiniz bir uygulama",
       images: ["/ricky&morty.png"],
@@ -124,7 +116,7 @@ export default function Home() {
       year: "2024"
     },
     {
-      id: 9,
+      id: 10,
       title: "Let's Watch Movie",
       description: "",
       images: ["/letswatchmovie.png"],
@@ -134,7 +126,7 @@ export default function Home() {
       year: "2024"
     },
     {
-      id: 10,
+      id: 11,
       title: "Shopping web site",
       description: "",
       images: ["/shopping.png"],
@@ -144,7 +136,7 @@ export default function Home() {
       year: "2023"
     },
     {
-      id: 11,
+      id: 12,
       title: "Cookery",
       description: "Endüstriyel mutfak ürünleri satan bir web sitesi",
       images: ["/cookery.png"],
@@ -154,7 +146,7 @@ export default function Home() {
       year: "2023"
     },
     {
-      id: 12,
+      id: 13,
       title: "OneMore Web Site",
       description: "Clone Project",
       images: ["/onemore.png"],
@@ -164,7 +156,7 @@ export default function Home() {
       year: "2022"
     },
     {
-      id: 13,
+      id: 14,
       title: "English Dictionary",
       description: "",
       images: ["/dictionary.png"],
@@ -174,7 +166,7 @@ export default function Home() {
       year: "2022"
     },
     {
-      id: 14,
+      id: 15,
       title: "Forecast",
       description: "",
       images: ["/forecast.png"],
